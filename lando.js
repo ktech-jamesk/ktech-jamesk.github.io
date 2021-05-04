@@ -130,8 +130,15 @@ const config = {
         display: true,
         text: 'Positions of Lando Norris throughout the 2019 season'
       }
+    },
+    scales: {
+      y: {
+        min: 0,
+        max: 20,
+      }
     }
   },
+  
 };
 
 var myChart = new Chart(ctx, config);
