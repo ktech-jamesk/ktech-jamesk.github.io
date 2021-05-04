@@ -1,0 +1,67 @@
+body {
+    width: 100%; 
+    margin: 0;
+    background: #ffffff;
+    padding: 0;
+    font-family: "Epilogue", sans-serif;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    overflow: auto;
+    overflow-x: hidden!important; 
+  }
+  
+  #story-title {
+    display: none;
+  }
+  
+  body.fixed {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  header {
+    height: 250px;
+    background: linear-gradient(180deg, #E0610E 80.65%, rgb(255, 255, 255) 100%);
+    padding: 64px 64px 120px 64px;
+    font-weight: 300;
+  }
+  
+  #header-img {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #header-img img {
+    height: 300px;
+  }
+  
+  #header-title {
+    display: grid;
+    grid-template-columns: 16% 66% 16%;
+    margin-bottom: 60px;
+    justify-content: center;
+  }
+  
+  header p {
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .title-img {
+    width: 100%;
+  }
+
+  #chart{
+    width:70%;
+    margin: auto;
+    height: 50%;
+  }
+
+  #myChart{
+    height: 400px;
+  }
+  
