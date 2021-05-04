@@ -110,7 +110,7 @@ ctx.canvas.height = 300;
 const graphData = {
   labels: labels,
   datasets: [{
-      label: 'Lando Norris Race Positions',
+      label: 'Race Position',
       data: positions,
       borderColor: CHART_COLORS.red,
       borderWidth: 1
