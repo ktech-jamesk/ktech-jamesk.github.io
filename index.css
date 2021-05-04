@@ -58,7 +58,7 @@ body {
   #chart{
     width:70%;
     margin: auto;
-    height: 50%;
+    max-width: 900px;
   }
 
   #myChart{
