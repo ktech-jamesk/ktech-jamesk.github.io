@@ -6,6 +6,8 @@
       href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
       rel="stylesheet"
     />
+    <script src="2019Data.js"></script>
+    <script src="2020Data.js"></script>
 <body>
     <header>
         <div id="header-wrapper">
@@ -15,18 +17,36 @@
             <div id="header-title">
                 <div></div>
                 <p>
-                    A Look into the first season of McLaren driver Lando Norris
+                    A Look into McLaren driver Lando Norris and his performace in F1 so far
                 </p>
                 <div></div>
             </div>
 
         </div>
     </header>
-    <div id="chart">
-        <div></div>
-        <canvas id="myChart" width="100" height="100">
+    <div class="chart">
+        <canvas id="lando2019" class="charts" width="100" height="100">
         </canvas>
         <div></div>
+        <div class="chartText">
+            <p>
+                From the chart we can see all of the positions that Lando finished througout the 2019 F1 season. A season best of 6th at both Bahrain and Austria and a season worst of 18th in China. At the beginning of the season we can see quite high variance in positions whereas towards the end  the variance goes down a lot and in the last three races we can see he only finished in either 7th or 8th.
+                <br>
+                Note: blank columns are when he retired
+            </p>
+        </div>
+    </div>
+    <div class="chart">
+        <canvas id="lando2020" class="charts" width="100" height="100">
+        </canvas>
+        <div></div>
+        <div class="chartText">
+            <p>
+                For 2020 we can see that the variance has actually increased especially around the middle of the season. With a season worst of 15th he has improved on his worst from 2019 and has become much more consistent at the high end of the positions. A season best of 3rd in Austria locked up his first podium in the sport as well as two 4ths and three 5ths shows that he has improved tremendously with these 6 results being better that his best result over the previous year. 
+                <br>
+                Note: blank columns are when he retired
+            </p>
+        </div>
     </div>
 </body>
 

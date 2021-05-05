@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
     overflow: auto;
     overflow-x: hidden!important; 
+    font-weight: 600;
   }
   
   #story-title {
@@ -27,7 +28,7 @@ body {
     height: 250px;
     background: linear-gradient(180deg, #E0610E 80.65%, rgb(255, 255, 255) 100%);
     padding: 64px 64px 120px 64px;
-    font-weight: 300;
+    font-weight: 600;
   }
   
   #header-img {
@@ -55,13 +56,25 @@ body {
     width: 100%;
   }
 
-  #chart{
-    width:70%;
-    margin: auto;
-    max-width: 900px;
+  .chart{
+    display: grid;
+    grid-template-columns: 47% 6% 47% ;
+    width: 100%;
   }
 
-  #myChart{
-    height: 400px;
+  .charts{
+    margin: auto;
+    max-width: 500px;
+    width: 500px;
+    max-height: 500px;
+  }
+
+  .chartText{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    text-align: center;
+    font-size: larger;
+    font-family: "Epilogue", sans-serif;
   }
   
